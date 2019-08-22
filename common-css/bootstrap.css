@@ -5404,7 +5404,7 @@ button.close {
 }
 
 .modal-open {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .modal {
@@ -5412,11 +5412,22 @@ button.close {
   top: 0;
   right: 0;
   bottom: 0;
+  padding-top: 100px;
   left: 0;
   z-index: 1050;
   display: none;
-  overflow: hidden;
+  overflow: auto;
   outline: 0;
+  background-color: rgb(256,256,256,0.5);
+}
+
+.modal-trigger {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal-trigger:hover {
+  opacity: 0.7;
 }
 
 .modal.fade .modal-dialog {
@@ -5461,7 +5472,7 @@ button.close {
   background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.3rem;
   outline: 0;
 }
@@ -5473,7 +5484,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .modal-backdrop.fade {

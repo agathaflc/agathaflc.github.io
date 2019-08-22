@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>CV - Boxed</title>
+	<title>Felicia Agatha</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -76,6 +76,7 @@
 						<ul class="social-icons">
 							<li><a href="https://www.linkedin.com/in/agathafelicia/"><i class="ion-social-linkedin"></i></a></li>
 							<li><a href="https://github.com/agathaflc/"><i class="ion-social-github"></i></a></li>
+							<li><a href="https://devpost.com/agathaflc"><span><b>D</b></span></a></li>
 						</ul>
 					</div><!-- intro -->
 				</div><!-- col-sm-8 -->
@@ -88,7 +89,7 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Portfolio</b></h3>
+						<h3><b>Projects</b></h3>
 						<h6 class="font-lite-black"><b>MY WORK</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
@@ -106,9 +107,24 @@
 		<div class="portfolioContainer">
 			
 			<div class="p-item web-design">
-				<a href="images/portfolio-1-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-1-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
+				<img class="modal-trigger" src="images/portfolio-1-600x400.jpg" alt="" data-toggle="modal" data-target="#myModal">
+
+				<div id="myModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title">Modal Header</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>Some text in the modal.</p>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>	
+			</div>
 			
 			<div class="p-item branding graphic-design">
 				<a href="images/portfolio-7-600x800.jpg" data-fluidbox>
