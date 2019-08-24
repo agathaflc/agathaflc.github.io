@@ -213,18 +213,10 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
   margin-bottom: 15px;
   bottom: -15px;
   width: 100%;
-}
-/*.portfolio-section .p-item .overlay span {
-  color: #fff900;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 11px;
-  letter-spacing: 2px;
+  font-size: xx-large;
   text-transform: uppercase;
-  bottom: -5px;
-  visibility: hidden;
-  opacity: 0;
 }
-*/.portfolio-section .p-item .overlay:before {
+.portfolio-section .p-item .overlay:before {
   content: '';
   position: absolute;
   z-index: 1;
