@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  padding-right: 0px !important
+  padding-right: 0px !important;
 }
 
 article,
@@ -5446,7 +5446,7 @@ button.close {
 
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .modal-dialog {

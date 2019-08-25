@@ -89,16 +89,16 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="heading">
-						<h3><b>Projects</b></h3>
+						<h3><b>Projects and Awards</b></h3>
 						<h6 class="font-lite-black"><b>MY WORK</b></h6>
 					</div>
 				</div><!-- col-sm-4 -->
 				<div class="col-sm-8">
 					<div class="portfolioFilter clearfix margin-b-80">
 						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
-						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
-						<a href="#" data-filter=".branding"><b>BRANDING</b></a>
-						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a>
+						<a href="#" data-filter=".hackathon"><b>HACKATHON</b></a>
+						<a href="#" data-filter=".data-filer-award"><b>AWARD</b></a>
+						<a href="#" data-filter=".other"><b>OTHER</b></a>
 					</div><!-- portfolioFilter -->
 				</div><!-- col-sm-8 -->
 			</div><!-- row -->
@@ -106,14 +106,14 @@
 		
 		<div class="portfolioContainer">
 			
-			<div class="p-item web-design">
+			<div class="p-item data-filer-award">
 				<img src="images/facade-600x400.jpg" alt="" >
 
-				<span class="overlay modal-trigger" data-toggle="modal" data-target="#myModal">
+				<span class="overlay modal-trigger" data-toggle="modal" data-target="#facadeModal">
 					<h2>Emotion-Sensing Game</h2>
 				</span>
 
-				<div id="myModal" class="modal fade" role="dialog">
+				<div id="facadeModal" class="modal fade" role="dialog">
 				  <div class="modal-dialog modal-lg">
 
 				    <!-- Modal content-->
@@ -146,68 +146,192 @@
 				</div>	
 			</div>
 
-			<div class="p-item web-design">
-				<img class="modal-trigger" src="images/ghc-600x400.jpg" alt="" data-toggle="modal" data-target="#myModal">
+			<div class="p-item data-filter-award">
+				<img src="images/ghc-600x400.jpg" alt="" >
 
-				<span class="overlay">
+				<span class="overlay modal-trigger" data-toggle="modal" data-target="#ghcModal">
 					<h2>GHC Scholar</h2>
 				</span>
 
-				<div id="myModal" class="modal fade" role="dialog">
-				  <div class="modal-dialog">
+				<div id="ghcModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog modal-lg">
 
 				    <!-- Modal content-->
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h4 class="modal-title">Modal Header</h4>
+				        <h4 class="modal-title">Grace Hopper Celebration 2017 Scholar</h4>
 				      </div>
 				      <div class="modal-body">
-				        <p>Some text in the modal.</p>
+				      	<div class="row">
+							<div class="col-md-5">
+								<img src="images/ghc2017-600x400.jpg" alt="" >
+								<span class="small" 
+									style="text-align: center; width: 100%">
+									<i>Grace Hopper Celebration 2017</i>
+								</span>
+							</div>
+							<div class="col-md-7 smalltext">
+								<p>I was awarded conference and travel grant from Microsoft to attend the Grace Hopper Celebration 2017 in Orlando, Florida.</p>
+								<br>
+								<a href="https://ghc.anitab.org/2017-student-academic/2017-scholarships/ghc-17-scholars/attachment/felicia-agatha/">Visit my GHC Scholar page here.</a>
+							</div>
+						</div>
+				        
 				      </div>
 				    </div>
 
 				  </div>
-				</div>	
+				</div>		
 			</div>
 			
-			<div class="p-item branding graphic-design">
-				<a href="images/ghc-600x400.jpg" data-fluidbox>
-					<img src="images/ghc-600x400.jpg" alt=""></a>
+			<div class="p-item hackathon data-filter-award">
+				<img src="images/tripsquare-600x400.jpg" alt="" >
+
+				<span class="overlay modal-trigger" data-toggle="modal" data-target="#tripSquareModal">
+					<h2>Collaborative travel planner app</h2>
+				</span>
+
+				<div id="tripSquareModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog modal-lg">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title">TripSquare (HackUST 2017)</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<div class="row">
+							<div class="col-md-6">
+								<a class="img fluidbox" href="images/tripsquare-in-action.png" data-fluidbox>
+									<img src="images/tripsquare-in-action.png" alt="">
+								</a>
+								<span class="small" 
+									style="text-align: center; width: 100%">
+									<i>TripSquare in Action</i>
+								</span>
+							</div>
+							<div class="col-md-6 smalltext">
+								<p>In a team of 3 people, I developed a real-time collaborative travel and transportation planning application in 24 hours. This project was submitted to <a href="https://www.ec.ust.hk/hackathon/">HackUST</a> 2017 and won the 3rd place for Transportation theme.</p>
+								<br>
+								<a href="https://github.com/gentaiscool/tripsquare">Visit the GitHub page here.</a>
+							</div>
+						</div>
+				        
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+			</div><!-- p-item -->
+
+			<div class="p-item hackathon data-filter-award">
+				<img src="images/besafe-600x400.jpg" alt="" >
+
+				<span class="overlay modal-trigger" data-toggle="modal" data-target="#besafeModal">
+					<h2>Self-protection app</h2>
+				</span>
+
+				<div id="besafeModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog modal-lg">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title">BeSafe (YHack 2016)</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<div class="row">
+							<div class="col-md-6">
+								<a class="img" href="images/besafe-screens.jpg" data-fluidbox>
+									<img src="images/besafe-screens.jpg" alt="">
+								</a>
+								<span class="small" 
+									style="text-align: center; width: 100%">
+									<i>BeSafe in Action</i>
+								</span>
+							</div>
+							<div class="col-md-6 smalltext">
+								<p>In <a href="https://www.yhack.org/">YHack</a> 2016, I and my 3 teammates built an app that informs users about unsafe situations around them. We finished it in 36 hours, and we won the <b>Most impactful use of Analytics for Good</b> and <b>Best Use of Pitney Bowes API</b> awards.</p>
+								<br>
+								<a href="https://devpost.com/software/besafe">Visit the Devpost page here.</a>
+							</div>
+						</div>
+				        
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+			</div><!-- p-item -->
+
+			<div class="p-item hackathon data-filter-award">
+				<img src="images/moneybag-600x400.jpg" alt="" >
+
+				<span class="overlay modal-trigger" data-toggle="modal" data-target="#moneybagModal">
+					<h2>Self-protection app</h2>
+				</span>
+
+				<div id="moneybagModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog modal-lg">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h4 class="modal-title">MoneyBag (HackUST 2016)</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<div class="row">
+							<div class="col-md-6">
+								<a class="img" href="images/moneybag-screen.jpg" data-fluidbox>
+									<img src="images/moneybag-screen.jpg" alt="">
+								</a>
+								<span class="small" 
+									style="text-align: center; width: 100%">
+									<i>MoneyBag in Action</i>
+								</span>
+							</div>
+							<div class="col-md-6 smalltext">
+								<p><a href="https://www.ec.ust.hk/hackathon/">HackUST</a> 2016 was the first hackathon I attended. In 24 hours, I and my teammates created Moneybag: a platform for personal financing and investment learning, targetting millennials. We managed to win 1st place for <b>Bank of East Asia App for LifeStyle</b> award.</p>
+								<br>
+								<a href="https://github.com/agathaflc/Moneybag">Visit the GitHub page here.</a>
+							</div>
+						</div>
+				        
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
 			</div><!-- p-item -->
 			
-			<div class="p-item web-design">
-				<a href="images/tripsquare-600x400.jpg" data-fluidbox>
-					<img src="images/tripsquare-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item p-item-2 graphic-design">
+			<div class="p-item p-item-2 other">
 				<a class="img" href="images/portfolio-8-300x400.jpg" data-fluidbox>
 					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
 				<a class="img" href="images/portfolio-9-300x400.jpg" data-fluidbox>
 					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
 			</div><!-- p-item -->
 			
-			<div class="p-item branding graphic-design">
+			<div class="p-item data-filer-award other">
 				<a href="images/portfolio-3-600x400.jpg" data-fluidbox>
 					<img src="images/portfolio-3-600x400.jpg" alt=""></a>
 			</div><!-- p-item -->
 			
-			<div class="p-item graphic-design web-design">
+			<div class="p-item other hackathon">
 				<a href="images/portfolio-4-600x400.jpg" data-fluidbox>
 					<img src="images/portfolio-4-600x400.jpg" alt=""></a>
 			</div><!-- p-item -->
 			
-			<div class="p-item  graphic-design branding">
+			<div class="p-item  other data-filer-award">
 				<a href="images/portfolio-5-600x800.jpg" data-fluidbox>
 					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
 			</div><!-- p-item -->
 				
-			<div class="p-item web-design branding">
+			<div class="p-item hackathon data-filer-award">
 				<a href="images/portfolio-6-600x800.jpg" data-fluidbox>
 					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
 			</div><!-- p-item -->
 
-			<div class="p-item p-item-2 graphic-design">
+			<div class="p-item p-item-2 other">
 				<a class="img" href="images/portfolio-10-300x400.jpg" data-fluidbox>
 					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
 				<a class="img" href="images/portfolio-11-300x400.jpg" data-fluidbox>
